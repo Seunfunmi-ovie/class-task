@@ -4,7 +4,7 @@ public class Ascending {
     public static void main(String[] args) {
         int[] numbers = {5, 2, 8, 1, 4};
         int[] result = squareAccending(numbers);
-        System.out.print("Squared and Sorted order: " + Arrays.toString(result));
+        System.out.print("Squared order: " + Arrays.toString(result));
     }
 
     public static int[] squareAccending(int[] numbers) {

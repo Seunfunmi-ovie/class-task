@@ -11,9 +11,9 @@ class AscendingTest {
     }
     @Test
     public void testThatArraySortedGetTheSquareOfTheArray() {
-        int[] arr = {5, 2, 8, 1, 4};
+        int[] number = {5, 2, 8, 1, 4};
         int[] expected = {1, 4, 16, 25, 64};
-        assertArrayEquals(expected, Ascending.squareAccending(arr));
+        assertArrayEquals(expected, Ascending.squareAccending(number));
     }
 
     @Test

@@ -13,9 +13,9 @@ class ShortestTest {
 
     @Test
     public void testThatFunctionCanGetDuplicateShortestWords() {
-        String sentence = "I am a software engineer";
+        String word = "I am a software engineer";
         String expected = "I";
-        String actual = Shortest.findShortestString(sentence);
+        String actual = Shortest.findShortestString(word);
         assertEquals(expected, actual);
     }
 
